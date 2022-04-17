@@ -1,4 +1,4 @@
-UT22 Rear Controller v.3.1
+# UT22 Rear Controller v.3.1
 
 By: Benjamin Liang, Senior Electrical Member, University of Toronto Formula Racing Team
 
