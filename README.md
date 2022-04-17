@@ -1,6 +1,8 @@
 UT22 Rear Controller v.3.1
 By: Benjamin Liang, Senior Electrical Member, University of Toronto Formula Racing Team
 In this article, we will explore v.3.1 of the rear controller for UT22, the car we’re taking to competition this season. Each year, the University of Toronto Formula Racing Team (UTFR) designs and builds a new car to compete in international Formula SAE events. As such, the team must ensure all elements of the vehicle comply entirely with Formula SAE regulations, the rear controller is no exception. This PCB controls the car’s power distribution, data acquisition, CAN Bus communication, low voltage battery management system, high voltage integration, accelerator pedal position sensor (APPS) signal transmission, cooling system, traction control, and numerous safety features.
+
+![image](https://user-images.githubusercontent.com/82067858/163696802-64a019b0-70ba-4c65-9f0d-db92673a1dd2.png)
  
 Due to issues supplying Atmega2560s as a result of the global silicon shortage and delays to our timeline due to COVID-19, we decided to implement a modular design for this revision of the rear controller. This includes a shield for an Arduino Mega, Arduino Micro, three switching regulator modules, three CAN Bus modules, a DAC module used to transmit the APPS signal to the inverter, a gyroscope module, and an accelerometer module. The CAN Bus modules in particular consist of a CAN controller and transceiver used for communication with other CAN Bus nodes within the car’s data acquisition architecture.
 
